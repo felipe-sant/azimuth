@@ -1,5 +1,5 @@
 import { ApolloServer } from "apollo-server-express";
-import { connectDB } from "../db/connect";
+import { connectDB } from "./db/connect";
 
 import express from "express"; // Use import em vez de require
 import { resolvers, typeDefs } from "./graphql/schema";

@@ -1,4 +1,4 @@
-import { verfyToken } from "../../utils/jwt";
+import { verfyToken } from "../utils/jwt";
 
 
 export const getUserFromToken = (authHeader?: string) => {

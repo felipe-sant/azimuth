@@ -1,5 +1,5 @@
 import { scryptSync, timingSafeEqual } from "crypto";
-import { generateToken } from "../../utils/jwt";
+import { generateToken } from "../utils/jwt";
 import { UserModelClass } from "../model/userModel";
 
 export class LoginService {
